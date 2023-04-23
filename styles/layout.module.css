@@ -1,0 +1,25 @@
+.bannerHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff;
+  padding: 1em 2em;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(64, 66, 170, 0.589);
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.h2{
+  font-size: 3em;
+}
+.preRoot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

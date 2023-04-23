@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+body {
+  border-radius: 12px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  background: rgb(76, 139, 245);
+  background: radial-gradient(circle, rgba(76, 139, 245, 1) 6%, rgba(103, 157, 218, 1) 40%, rgba(68, 137, 246, 1) 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
