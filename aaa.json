@@ -1,0 +1,2002 @@
+{
+    "actions": [
+        {
+            "id": "186;a",
+            "state": "SUCCESS",
+            "returnValue": {
+                "returnValue": "{\"IPResult\":{\"insuredItems\":{\"autoDriver\":[{\"isPrimary\":false,\"instanceKey\":\"Roger Moore\",\"discountDriverInstanceKey\":\"Roger Moore\",\"adAgeLicensed\":16,\"adFirstName\":\"Roger\",\"adGender\":\"M\",\"adLastName\":\"Moore\",\"adMaritalStatus\":\"M\",\"adMiddleName\":\"M\",\"adBirthdate\":\"1988-01-01T03:00:00.000Z\",\"adAge\":35,\"adInstanceKey\":\"Roger Moore\"}],\"autoVehicle\":{\"isPrimary\":true,\"avVIN\":\"JTHBF1D25F5074100\",\"VehicleType\":\"PASSENGER CAR\",\"avYear\":2015,\"avModel\":\"IS\",\"instanceKey\":\"2015  IS\",\"avMileage\":15000,\"avValue\":19997,\"avColor\":\"Silver\",\"avGaragePostalCode\":\"94040\",\"avStabilization\":false,\"avBrakes\":true,\"avAltFuel\":false,\"avAntiTheft\":false}}},\"error\":\"OK\"}",
+                "cacheable": false
+            },
+            "error": []
+        }
+    ],
+    "context": {
+        "mode": "PROD",
+        "app": "siteforce:communityApp",
+        "contextPath": "/BdtInsurance/s/sfsites",
+        "pathPrefix": "/BdtInsurance",
+        "fwuid": "2kszAdlijI-L2tQGa5JU9w",
+        "mlr": 1,
+        "loaded": {
+            "APPLICATION@markup://siteforce:communityApp": "jXOsG5Igwp3Xarg4lKoceQ",
+            "COMPONENT@markup://instrumentation:o11ySecondaryLoader": "NAR59T88qTprOlgZG3yLoQ",
+            "COMPONENT@markup://forceCommunity:dashboard": "XEqH18oP_BM31IjxXlbJag"
+        },
+        "globalValueProviders": [
+            {
+                "type": "$Global",
+                "values": {
+                    "eswConfigDeveloperName": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "isVoiceOver": {
+                        "writable": true,
+                        "defaultValue": false
+                    },
+                    "setupAppContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "density": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "srcdoc": {
+                        "writable": false,
+                        "defaultValue": false
+                    },
+                    "appContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "dynamicTypeSize": {
+                        "writable": true,
+                        "defaultValue": ""
+                    }
+                }
+            }
+        ],
+        "enableAccessChecks": true,
+        "dns": "c",
+        "rns": [
+            "vlocity_ins"
+        ],
+        "ls": 1,
+        "lairn": [
+            "aloha_sales_opptysplit",
+            "app_flexipage",
+            "auraplat",
+            "contentpage",
+            "einsteinconduit",
+            "jsonxform",
+            "runtime_hcc_performanceassistant",
+            "runtime_industries_aisentimentresult",
+            "runtime_industries_documentreader",
+            "runtime_platform_sfdx",
+            "runtime_platformservices_eventmonitoring",
+            "runtime_revenue_billingbatchinvoices",
+            "runtime_revenue_billingbatchpayments",
+            "runtime_sales_billingpayments",
+            "runtime_sales_commerce",
+            "runtime_sales_corebiz",
+            "securitycentral",
+            "work"
+        ],
+        "laerc": [],
+        "lav": "57",
+        "ln": 1,
+        "mna": {
+            "lightning": "interop"
+        },
+        "lff": {
+            "ENABLE_MIXED_SHADOW_MODE": false,
+            "ENABLE_LIGHT_GET_ROOT_NODE_PATCH": true,
+            "DISABLE_LIGHT_DOM_UNSCOPED_CSS": false,
+            "ENABLE_SCOPED_CUSTOM_ELEMENT_REGISTRY": false
+        },
+        "arse": 1,
+        "acaf": 1,
+        "services": [
+            "markup://lightning:configProvider",
+            "markup://force:salesforceScopedModuleResolver",
+            "markup://force:ldsEngineCreator",
+            "markup://instrumentation:locatorService"
+        ]
+    },
+    "perfSummary": {
+        "version": "core",
+        "request": 246,
+        "actions": {
+            "186;a": {
+                "total": 191,
+                "db": 7
+            }
+        },
+        "actionsTotal": 191,
+        "overhead": 0
+    }
+}
+
+
+{
+    "actions": [
+        {
+            "id": "187;a",
+            "state": "SUCCESS",
+            "returnValue": {
+                "returnValue": {
+                    "error": "OK"
+                },
+                "cacheable": false
+            },
+            "error": []
+        }
+    ],
+    "context": {
+        "mode": "PROD",
+        "app": "siteforce:communityApp",
+        "contextPath": "/BdtInsurance/s/sfsites",
+        "pathPrefix": "/BdtInsurance",
+        "fwuid": "2kszAdlijI-L2tQGa5JU9w",
+        "mlr": 1,
+        "loaded": {
+            "APPLICATION@markup://siteforce:communityApp": "jXOsG5Igwp3Xarg4lKoceQ",
+            "COMPONENT@markup://instrumentation:o11ySecondaryLoader": "NAR59T88qTprOlgZG3yLoQ",
+            "COMPONENT@markup://forceCommunity:dashboard": "XEqH18oP_BM31IjxXlbJag"
+        },
+        "globalValueProviders": [
+            {
+                "type": "$Global",
+                "values": {
+                    "eswConfigDeveloperName": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "isVoiceOver": {
+                        "writable": true,
+                        "defaultValue": false
+                    },
+                    "setupAppContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "density": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "srcdoc": {
+                        "writable": false,
+                        "defaultValue": false
+                    },
+                    "appContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "dynamicTypeSize": {
+                        "writable": true,
+                        "defaultValue": ""
+                    }
+                }
+            }
+        ],
+        "enableAccessChecks": true,
+        "dns": "c",
+        "rns": [
+            "vlocity_ins"
+        ],
+        "ls": 1,
+        "lairn": [
+            "aloha_sales_opptysplit",
+            "app_flexipage",
+            "auraplat",
+            "contentpage",
+            "einsteinconduit",
+            "jsonxform",
+            "runtime_hcc_performanceassistant",
+            "runtime_industries_aisentimentresult",
+            "runtime_industries_documentreader",
+            "runtime_platform_sfdx",
+            "runtime_platformservices_eventmonitoring",
+            "runtime_revenue_billingbatchinvoices",
+            "runtime_revenue_billingbatchpayments",
+            "runtime_sales_billingpayments",
+            "runtime_sales_commerce",
+            "runtime_sales_corebiz",
+            "securitycentral",
+            "work"
+        ],
+        "laerc": [],
+        "lav": "57",
+        "ln": 1,
+        "mna": {
+            "lightning": "interop"
+        },
+        "lff": {
+            "ENABLE_MIXED_SHADOW_MODE": false,
+            "ENABLE_LIGHT_GET_ROOT_NODE_PATCH": true,
+            "DISABLE_LIGHT_DOM_UNSCOPED_CSS": false,
+            "ENABLE_SCOPED_CUSTOM_ELEMENT_REGISTRY": false
+        },
+        "arse": 1,
+        "acaf": 1,
+        "services": [
+            "markup://lightning:configProvider",
+            "markup://force:salesforceScopedModuleResolver",
+            "markup://force:ldsEngineCreator",
+            "markup://instrumentation:locatorService"
+        ]
+    },
+    "perfSummary": {
+        "version": "core",
+        "request": 67,
+        "actions": {
+            "187;a": {
+                "total": 21,
+                "db": 3
+            }
+        },
+        "actionsTotal": 21,
+        "overhead": 0
+    }
+}
+
+{
+    "actions": [
+        {
+            "id": "188;a",
+            "state": "SUCCESS",
+            "returnValue": {
+                "returnValue": "{\"TFDRresp\":{\"userInputs\":{\"autoDriver.adMVRPoints\":\"0\",\"autoDriver.adAccidentPoints\":\"1\",\"autoVehicle.instanceKey\":\"2015  IS\",\"autoVehicle.avYear\":2015,\"autoVehicle.avValue\":19997,\"autoVehicle.avStabilization\":false,\"autoVehicle.avModel\":\"IS\",\"autoVehicle.avMileage\":15000,\"autoVehicle.avGaragePostalCode\":\"94040\",\"autoVehicle.avAntiTheft\":false,\"autoVehicle.avAltFuel\":false,\"autoVehicle.avBrakes\":true,\"autoDriver.instanceKey\":\"Roger Moore\",\"autoDriver.adBirthdate\":\"1988-01-01T03:00:00.000Z\",\"autoDriver.adAgeLicensed\":16,\"autoDriver.adGender\":\"M\",\"autoDriver.adMaritalStatus\":\"M\"}},\"error\":\"OK\"}",
+                "cacheable": false
+            },
+            "error": []
+        }
+    ],
+    "context": {
+        "mode": "PROD",
+        "app": "siteforce:communityApp",
+        "contextPath": "/BdtInsurance/s/sfsites",
+        "pathPrefix": "/BdtInsurance",
+        "fwuid": "2kszAdlijI-L2tQGa5JU9w",
+        "mlr": 1,
+        "loaded": {
+            "APPLICATION@markup://siteforce:communityApp": "jXOsG5Igwp3Xarg4lKoceQ",
+            "COMPONENT@markup://instrumentation:o11ySecondaryLoader": "NAR59T88qTprOlgZG3yLoQ",
+            "COMPONENT@markup://forceCommunity:dashboard": "XEqH18oP_BM31IjxXlbJag"
+        },
+        "globalValueProviders": [
+            {
+                "type": "$Global",
+                "values": {
+                    "eswConfigDeveloperName": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "isVoiceOver": {
+                        "writable": true,
+                        "defaultValue": false
+                    },
+                    "setupAppContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "density": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "srcdoc": {
+                        "writable": false,
+                        "defaultValue": false
+                    },
+                    "appContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "dynamicTypeSize": {
+                        "writable": true,
+                        "defaultValue": ""
+                    }
+                }
+            }
+        ],
+        "enableAccessChecks": true,
+        "dns": "c",
+        "rns": [
+            "vlocity_ins"
+        ],
+        "ls": 1,
+        "lairn": [
+            "aloha_sales_opptysplit",
+            "app_flexipage",
+            "auraplat",
+            "contentpage",
+            "einsteinconduit",
+            "jsonxform",
+            "runtime_hcc_performanceassistant",
+            "runtime_industries_aisentimentresult",
+            "runtime_industries_documentreader",
+            "runtime_platform_sfdx",
+            "runtime_platformservices_eventmonitoring",
+            "runtime_revenue_billingbatchinvoices",
+            "runtime_revenue_billingbatchpayments",
+            "runtime_sales_billingpayments",
+            "runtime_sales_commerce",
+            "runtime_sales_corebiz",
+            "securitycentral",
+            "work"
+        ],
+        "laerc": [],
+        "lav": "57",
+        "ln": 1,
+        "mna": {
+            "lightning": "interop"
+        },
+        "lff": {
+            "ENABLE_MIXED_SHADOW_MODE": false,
+            "ENABLE_LIGHT_GET_ROOT_NODE_PATCH": true,
+            "DISABLE_LIGHT_DOM_UNSCOPED_CSS": false,
+            "ENABLE_SCOPED_CUSTOM_ELEMENT_REGISTRY": false
+        },
+        "arse": 1,
+        "acaf": 1,
+        "services": [
+            "markup://lightning:configProvider",
+            "markup://force:salesforceScopedModuleResolver",
+            "markup://force:ldsEngineCreator",
+            "markup://instrumentation:locatorService"
+        ]
+    },
+    "perfSummary": {
+        "version": "core",
+        "request": 210,
+        "actions": {
+            "188;a": {
+                "total": 160,
+                "db": 3
+            }
+        },
+        "actionsTotal": 160,
+        "overhead": 0
+    }
+}
+
+{
+    "actions": [
+        {
+            "id": "189;a",
+            "state": "SUCCESS",
+            "returnValue": {
+                "returnValue": {
+                    "error": "OK"
+                },
+                "cacheable": false
+            },
+            "error": []
+        }
+    ],
+    "context": {
+        "mode": "PROD",
+        "app": "siteforce:communityApp",
+        "contextPath": "/BdtInsurance/s/sfsites",
+        "pathPrefix": "/BdtInsurance",
+        "fwuid": "2kszAdlijI-L2tQGa5JU9w",
+        "mlr": 1,
+        "loaded": {
+            "APPLICATION@markup://siteforce:communityApp": "jXOsG5Igwp3Xarg4lKoceQ",
+            "COMPONENT@markup://instrumentation:o11ySecondaryLoader": "NAR59T88qTprOlgZG3yLoQ",
+            "COMPONENT@markup://forceCommunity:dashboard": "XEqH18oP_BM31IjxXlbJag"
+        },
+        "globalValueProviders": [
+            {
+                "type": "$Global",
+                "values": {
+                    "eswConfigDeveloperName": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "isVoiceOver": {
+                        "writable": true,
+                        "defaultValue": false
+                    },
+                    "setupAppContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "density": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "srcdoc": {
+                        "writable": false,
+                        "defaultValue": false
+                    },
+                    "appContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "dynamicTypeSize": {
+                        "writable": true,
+                        "defaultValue": ""
+                    }
+                }
+            }
+        ],
+        "enableAccessChecks": true,
+        "dns": "c",
+        "rns": [
+            "vlocity_ins"
+        ],
+        "ls": 1,
+        "lairn": [
+            "aloha_sales_opptysplit",
+            "app_flexipage",
+            "auraplat",
+            "contentpage",
+            "einsteinconduit",
+            "jsonxform",
+            "runtime_hcc_performanceassistant",
+            "runtime_industries_aisentimentresult",
+            "runtime_industries_documentreader",
+            "runtime_platform_sfdx",
+            "runtime_platformservices_eventmonitoring",
+            "runtime_revenue_billingbatchinvoices",
+            "runtime_revenue_billingbatchpayments",
+            "runtime_sales_billingpayments",
+            "runtime_sales_commerce",
+            "runtime_sales_corebiz",
+            "securitycentral",
+            "work"
+        ],
+        "laerc": [],
+        "lav": "57",
+        "ln": 1,
+        "mna": {
+            "lightning": "interop"
+        },
+        "lff": {
+            "ENABLE_MIXED_SHADOW_MODE": false,
+            "ENABLE_LIGHT_GET_ROOT_NODE_PATCH": true,
+            "DISABLE_LIGHT_DOM_UNSCOPED_CSS": false,
+            "ENABLE_SCOPED_CUSTOM_ELEMENT_REGISTRY": false
+        },
+        "arse": 1,
+        "acaf": 1,
+        "services": [
+            "markup://lightning:configProvider",
+            "markup://force:salesforceScopedModuleResolver",
+            "markup://force:ldsEngineCreator",
+            "markup://instrumentation:locatorService"
+        ]
+    },
+    "perfSummary": {
+        "version": "core",
+        "request": 79,
+        "actions": {
+            "189;a": {
+                "total": 24,
+                "db": 4
+            }
+        },
+        "actionsTotal": 24,
+        "overhead": 0
+    }
+}
+
+{
+    "actions": [
+        {
+            "id": "190;a",
+            "state": "SUCCESS",
+            "returnValue": {
+                "returnValue": "{\"totalSize\":1,\"records\":[{\"displaySequence\":-1,\"Id\":\"01t8Y00000O5yTdQAJ\",\"Name\":\"Multi Auto\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoMulti\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"RecordTypeName__c\":\"Product\",\"IsConfigurable__c\":false,\"PricingFormula__c\":\"SUM(premiumBIPD + premiumCOLL + premiumCCD + premiumMED + premiumUM+premiumRental)\",\"productId\":\"01t8Y00000O5yTdQAJ\",\"currencyCode\":\"USD\",\"currencySymbol\":\"$\",\"Price\":\"\",\"taxesAndFees\":[{\"calculatedAmount\":25.00,\"currencySymbol\":\"$\",\"currencyCode\":\"USD\",\"Type__c\":\"Fee\",\"RatingType__c\":\"Amount\",\"ProcedureSource__c\":null,\"ProcedureName__c\":null,\"ProcedureFormula__c\":null,\"Percent__c\":null,\"JurisdictionId__c\":null,\"IsRefundable__c\":false,\"Condition__c\":null,\"Amount__c\":25.00,\"Name\":\"573608e0-7b1c-9b66-a435-d584218c5305\",\"Id\":\"a3h8Y000000C2I7QAK\"},{\"calculatedAmount\":27.85,\"currencySymbol\":\"$\",\"currencyCode\":\"USD\",\"Type__c\":\"Tax\",\"RatingType__c\":\"Amount\",\"ProcedureSource__c\":null,\"ProcedureName__c\":null,\"ProcedureFormula__c\":null,\"Percent__c\":null,\"JurisdictionId__c\":null,\"IsRefundable__c\":true,\"Condition__c\":null,\"Amount__c\":27.85,\"Name\":\"7457f382-f935-3308-3429-24d9dfac88f4\",\"Id\":\"a3h8Y000000C2I8QAK\"},{\"calculatedAmount\":0,\"currencySymbol\":\"$\",\"currencyCode\":\"USD\",\"Type__c\":\"Tax\",\"RatingType__c\":\"Calculation Procedure\",\"ProcedureSource__c\":\"tax\",\"ProcedureName__c\":\"CA Taxes\",\"ProcedureFormula__c\":null,\"Percent__c\":null,\"JurisdictionId__c\":null,\"IsRefundable__c\":false,\"Condition__c\":null,\"Amount__c\":null,\"Name\":\"7eee88c5-37d5-3991-02db-37ef3343982f\",\"Id\":\"a3h8Y000000C2I9QAK\"},{\"calculatedAmount\":0,\"currencySymbol\":\"$\",\"currencyCode\":\"USD\",\"Type__c\":\"Tax\",\"RatingType__c\":\"Percent\",\"ProcedureSource__c\":null,\"ProcedureName__c\":null,\"ProcedureFormula__c\":null,\"Percent__c\":0.50,\"JurisdictionId__c\":null,\"IsRefundable__c\":true,\"Condition__c\":null,\"Amount__c\":null,\"Name\":\"93b485fc-a7ce-a358-929d-e0381289b239\",\"Id\":\"a3h8Y000000C2IAQA0\"}],\"taxAmount\":27.85,\"feeAmount\":25.00,\"totalTaxFeeAmount\":52.85,\"childProducts\":{\"totalSize\":1,\"records\":[{\"displaySequence\":1,\"Id\":\"01t8Y00000O5yRtQAJ\",\"Name\":\"Vehicle\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoVehicle\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"RecordTypeName__c\":\"InsuredItemSpec\",\"IsConfigurable__c\":true,\"PricingFormula__c\":\"premiumBIPD + premiumCOLL + premiumCCD + premiumMED + premiumUM+premiumRental\",\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5yRtQAJ\",\"pciId\":\"a2z8Y000001JuQZQA0\",\"minQuantity\":1,\"maxQuantity\":1,\"instanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":210,\"Code__c\":\"autoVehicle\",\"Name\":\"Auto Vehicle\",\"id\":\"a0B8Y00001XXPwmUAH\",\"productAttributes\":{\"totalSize\":27,\"records\":[{\"code\":\"avYear\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwIUAQ\",\"label\":\"Year\",\"displaySequence\":0,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"2015\"},{\"code\":\"avMake\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw3UAA\",\"label\":\"Make\",\"displaySequence\":1,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"avModel\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw5UAA\",\"label\":\"Model\",\"displaySequence\":2,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"IS\"},{\"code\":\"avColor\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvyUAA\",\"label\":\"Color\",\"displaySequence\":3,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"avGaragePostalCode\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvzUAA\",\"label\":\"Garage Location (Postal Code)\",\"displaySequence\":4,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"94040\"},{\"code\":\"avMileage\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw4UAA\",\"label\":\"Annual Mileage\",\"displaySequence\":5,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":15000},{\"code\":\"avVIN\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwGUAQ\",\"label\":\"VIN\",\"displaySequence\":6,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"avValue\",\"dataType\":\"currency\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwHUAQ\",\"label\":\"Value\",\"displaySequence\":7,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":19997},{\"code\":\"avAltFuel\",\"dataType\":\"text\",\"inputType\":\"checkbox\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvsUAA\",\"label\":\"Alternative Fuel\",\"displaySequence\":8,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":false},{\"code\":\"avBrakes\",\"dataType\":\"text\",\"inputType\":\"checkbox\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvvUAA\",\"label\":\"Anti-Lock Brakes\",\"displaySequence\":9,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":true},{\"code\":\"avStabilization\",\"dataType\":\"text\",\"inputType\":\"checkbox\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwDUAQ\",\"label\":\"Stabilization\",\"displaySequence\":10,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":false},{\"code\":\"avAntiTheft\",\"dataType\":\"text\",\"inputType\":\"checkbox\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvtUAA\",\"label\":\"Anti-Theft Device\",\"displaySequence\":11,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":false},{\"code\":\"avClaimFreq\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvwUAA\",\"label\":\"Claim Frequency\",\"displaySequence\":12,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":\"\"},{\"code\":\"avClaimSev\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvxUAA\",\"label\":\"Claim Severity\",\"displaySequence\":13,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":\"\"},{\"code\":\"avLicNum\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw1UAA\",\"label\":\"License Number\",\"displaySequence\":14,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":null},{\"code\":\"avLicState\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw2UAA\",\"label\":\"License State\",\"displaySequence\":15,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":null},{\"code\":\"avRatedDriver-BIPD\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw6UAA\",\"label\":\"Rated Driver - BIPD\",\"displaySequence\":16,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":\"\"},{\"code\":\"avRatedDriver-COMP\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw8UAA\",\"label\":\"Rated Driver - Comprehensive\",\"displaySequence\":17,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":\"\"},{\"code\":\"avRatedDriver-MED\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw9UAA\",\"label\":\"Rated Driver - Medical Payments\",\"displaySequence\":18,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":\"\"},{\"code\":\"avRatedDriver-UM\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwAUAQ\",\"label\":\"Rated Driver - Uninsured Motorist\",\"displaySequence\":19,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":\"\"},{\"code\":\"avRatedDriverName\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwBUAQ\",\"label\":\"Rated Driver Name\",\"displaySequence\":20,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":null},{\"code\":\"avRestraints\",\"dataType\":\"text\",\"inputType\":\"checkbox\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwCUAQ\",\"label\":\"Restraints\",\"displaySequence\":21,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":false},{\"code\":\"avHistoric\",\"dataType\":\"text\",\"inputType\":\"checkbox\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw0UAA\",\"label\":\"Historic\",\"displaySequence\":22,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":false},{\"code\":\"avStyle\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwEUAQ\",\"label\":\"Style\",\"displaySequence\":23,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":null},{\"code\":\"avSymbol\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nwFUAQ\",\"label\":\"Symbol\",\"displaySequence\":24,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":null},{\"code\":\"avBodyType\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvuUAA\",\"label\":\"Body Type\",\"displaySequence\":25,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":null},{\"code\":\"avRatedDriver-COLL\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nw7UAA\",\"label\":\"Rated Driver - Collision\",\"displaySequence\":26,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":\"\"}]}}]},\"childProducts\":{\"totalSize\":7,\"records\":[{\"displaySequence\":4,\"Id\":\"01t8Y00000O5yS5QAJ\",\"Name\":\"Uninsured Motorist\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoUM\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"PricingSource__c\":\"premiumUM\",\"RecordTypeName__c\":\"CoverageSpec\",\"IsConfigurable__c\":true,\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5yS5QAJ\",\"pciId\":\"a2z8Y000001JuQcQAK\",\"isOptional\":false,\"isSelected\":true,\"parentInstanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":230,\"Code__c\":\"autoTerms\",\"Name\":\"Auto Terms\",\"id\":\"a0B8Y00001XXPwdUAH\",\"productAttributes\":{\"totalSize\":1,\"records\":[{\"code\":\"autoUMLimit\",\"dataType\":\"text\",\"inputType\":\"dropdown\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0o0FUAQ\",\"label\":\"UM Limit\",\"displaySequence\":0,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"id\":\"0\",\"label\":\"$15,000 / $30,000\",\"readonly\":false,\"disabled\":false,\"value\":\"15/30\"},{\"id\":\"1\",\"label\":\"$25,000 / $50,000\",\"readonly\":false,\"disabled\":false,\"value\":\"25/50\"},{\"id\":\"2\",\"label\":\"$30,000 / $60,000\",\"readonly\":false,\"disabled\":false,\"value\":\"30/60\"},{\"id\":\"3\",\"label\":\"$50,000 / $100,000\",\"readonly\":false,\"disabled\":false,\"value\":\"50/100\"},{\"id\":\"4\",\"label\":\"$100,000 / $300,000\",\"readonly\":false,\"disabled\":false,\"value\":\"100/300\"},{\"id\":\"5\",\"label\":\"$250,000 / $500,000\",\"readonly\":false,\"disabled\":false,\"value\":\"250/500\"},{\"id\":\"6\",\"label\":\"$500,000 / $500,000\",\"readonly\":false,\"disabled\":false,\"value\":\"500/500\"},{\"id\":\"7\",\"label\":\"$500,000 / $1,000,000\",\"readonly\":false,\"disabled\":false,\"value\":\"500/1000\"}],\"userValues\":\"50/100\"}]}}]}},{\"displaySequence\":5,\"Id\":\"01t8Y00000O5ySEQAZ\",\"Name\":\"Rental Car\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoRental\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"PricingSource__c\":\"premiumRental\",\"RecordTypeName__c\":\"CoverageSpec\",\"IsConfigurable__c\":false,\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5ySEQAZ\",\"pciId\":\"a2z8Y000001JuQdQAK\",\"isOptional\":true,\"isSelected\":false,\"parentInstanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":230,\"Code__c\":\"autoTerms\",\"Name\":\"Auto Terms\",\"id\":\"a0B8Y00001XXPwdUAH\",\"productAttributes\":{\"totalSize\":2,\"records\":[{\"code\":\"autoRentalLimClmCov\",\"dataType\":\"currency\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0o0DUAQ\",\"label\":\"Rental Limit\",\"displaySequence\":0,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":2000},{\"code\":\"autoRentalDays\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":true,\"disabled\":true,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0o0CUAQ\",\"label\":\"Number of Days\",\"displaySequence\":1,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":true,\"disabled\":true}],\"userValues\":30}]}}]}},{\"displaySequence\":3,\"Id\":\"01t8Y00000O5ySDQAZ\",\"Name\":\"Medical Payments\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoMedical\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"PricingSource__c\":\"premiumMED\",\"RecordTypeName__c\":\"CoverageSpec\",\"IsConfigurable__c\":true,\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5ySDQAZ\",\"pciId\":\"a2z8Y000001JuQXQA0\",\"isOptional\":false,\"isSelected\":true,\"parentInstanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":230,\"Code__c\":\"autoTerms\",\"Name\":\"Auto Terms\",\"id\":\"a0B8Y00001XXPwdUAH\",\"productAttributes\":{\"totalSize\":1,\"records\":[{\"code\":\"autoMedPayLimClmCov\",\"dataType\":\"currency\",\"inputType\":\"dropdown\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0o0AUAQ\",\"label\":\"Med Pay Person Limit\",\"displaySequence\":0,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"id\":\"0\",\"label\":\"$1000\",\"readonly\":false,\"disabled\":false,\"value\":1000},{\"id\":\"1\",\"label\":\"$2000\",\"readonly\":false,\"disabled\":false,\"value\":2000},{\"id\":\"2\",\"label\":\"$5000\",\"readonly\":false,\"disabled\":false,\"value\":5000}],\"userValues\":1000}]}}]}},{\"displaySequence\":2,\"Id\":\"01t8Y00000O5ySAQAZ\",\"Name\":\"Comprehensive\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoComp\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"PricingSource__c\":\"premiumCCD\",\"RecordTypeName__c\":\"CoverageSpec\",\"IsConfigurable__c\":true,\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5ySAQAZ\",\"pciId\":\"a2z8Y000001JuQWQA0\",\"isOptional\":false,\"isSelected\":true,\"parentInstanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":230,\"Code__c\":\"autoTerms\",\"Name\":\"Auto Terms\",\"id\":\"a0R3i000000dBNgEAM\",\"productAttributes\":{\"totalSize\":1,\"records\":[{\"code\":\"autoCompDedClmCov\",\"dataType\":\"currency\",\"inputType\":\"dropdown\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0S3i000000cdTyEAI\",\"label\":\"Comp Deductible\",\"displaySequence\":0,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"id\":\"0\",\"label\":\"$100\",\"readonly\":false,\"disabled\":false,\"value\":100},{\"id\":\"1\",\"label\":\"$250\",\"readonly\":false,\"disabled\":false,\"value\":250},{\"id\":\"2\",\"label\":\"$500\",\"readonly\":false,\"disabled\":false,\"value\":500},{\"id\":\"3\",\"label\":\"$750\",\"readonly\":false,\"disabled\":false,\"value\":750},{\"id\":\"4\",\"label\":\"$1000\",\"readonly\":false,\"disabled\":false,\"value\":1000},{\"id\":\"5\",\"label\":\"$1500\",\"readonly\":false,\"disabled\":false,\"value\":1500},{\"id\":\"6\",\"label\":\"$2500\",\"readonly\":false,\"disabled\":false,\"value\":2500}],\"userValues\":100}]}}]}},{\"displaySequence\":1,\"Id\":\"01t8Y00000O5ySCQAZ\",\"Name\":\"Collision\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoCollision\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"PricingSource__c\":\"premiumCOLL\",\"RecordTypeName__c\":\"CoverageSpec\",\"IsConfigurable__c\":true,\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5ySCQAZ\",\"pciId\":\"a2z8Y000001JuQYQA0\",\"isOptional\":false,\"isSelected\":true,\"parentInstanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":230,\"Code__c\":\"autoTerms\",\"Name\":\"Auto Terms\",\"id\":\"a0B8Y00001XXPwdUAH\",\"productAttributes\":{\"totalSize\":1,\"records\":[{\"code\":\"autoCollDedClmCov\",\"dataType\":\"currency\",\"inputType\":\"dropdown\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0o06UAA\",\"label\":\"Collision Deductible\",\"displaySequence\":0,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"id\":\"0\",\"label\":\"$250\",\"readonly\":false,\"disabled\":false,\"value\":250},{\"id\":\"1\",\"label\":\"$500\",\"readonly\":false,\"disabled\":false,\"value\":500},{\"id\":\"2\",\"label\":\"$750\",\"readonly\":false,\"disabled\":false,\"value\":750},{\"id\":\"3\",\"label\":\"$1000\",\"readonly\":false,\"disabled\":false,\"value\":1000},{\"id\":\"4\",\"label\":\"$1500\",\"readonly\":false,\"disabled\":false,\"value\":1500},{\"id\":\"5\",\"label\":\"$2500\",\"readonly\":false,\"disabled\":false,\"value\":2500}],\"userValues\":500}]}}]}},{\"displaySequence\":0,\"Id\":\"01t8Y00000O5yS8QAJ\",\"Name\":\"Bodily Injury & Property Damage\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoBIPD\",\"LineOfBusiness__c\":\"Property & Casualty\",\"IsRecommended__c\":false,\"PricingSource__c\":\"premiumBIPD\",\"RecordTypeName__c\":\"CoverageSpec\",\"IsConfigurable__c\":true,\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5yS8QAJ\",\"pciId\":\"a2z8Y000001JuQaQAK\",\"isOptional\":false,\"isSelected\":true,\"parentInstanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":230,\"Code__c\":\"autoTerms\",\"Name\":\"Auto Terms\",\"id\":\"a0B6A0000062WreUAE\",\"productAttributes\":{\"totalSize\":1,\"records\":[{\"code\":\"autoBIPDLimit\",\"dataType\":\"text\",\"inputType\":\"dropdown\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C3s00000CAkV0EAL\",\"label\":\"BIPD Limit\",\"displaySequence\":0,\"hasRules\":true,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"id\":\"0\",\"label\":\"$15000/$30000/$10000\",\"readonly\":false,\"disabled\":false,\"value\":\"15000/30000/10000\"},{\"id\":\"1\",\"label\":\"$15000/$30000/$5000\",\"readonly\":false,\"disabled\":false,\"value\":\"15000/30000/5000\"},{\"id\":\"2\",\"label\":\"$25000/$50000/$25000\",\"readonly\":false,\"disabled\":false,\"value\":\"25000/50000/25000\"},{\"id\":\"3\",\"label\":\"$25000/$50000/$50000\",\"readonly\":false,\"disabled\":false,\"value\":\"25000/50000/50000\"},{\"id\":\"4\",\"label\":\"$50000/$100000/$50000\",\"readonly\":false,\"disabled\":false,\"value\":\"50000/100000/50000\"},{\"id\":\"5\",\"label\":\"$50000/$100000/$100000\",\"readonly\":false,\"disabled\":false,\"value\":\"50000/100000/100000\"},{\"id\":\"6\",\"label\":\"$100000/$300000/$25000\",\"readonly\":false,\"disabled\":false,\"value\":\"100000/300000/25000\"},{\"id\":\"7\",\"label\":\"$100000/$300000/$50000\",\"readonly\":false,\"disabled\":false,\"value\":\"100000/300000/50000\"},{\"id\":\"8\",\"label\":\"$100000/$300000/$100000\",\"readonly\":false,\"disabled\":false,\"value\":\"100000/300000/100000\"},{\"id\":\"9\",\"label\":\"$250000/$500000/$100000\",\"readonly\":false,\"disabled\":false,\"value\":\"250000/500000/100000\"},{\"id\":\"10\",\"label\":\"$500000/$500000/100000\",\"readonly\":false,\"disabled\":false,\"value\":\"500000/500000/100000\"},{\"id\":\"11\",\"label\":\"$500000/$500000/$500000\",\"readonly\":false,\"disabled\":false,\"value\":\"500000/500000/500000\"},{\"id\":\"12\",\"label\":\"$500000/$1000000/$500000\",\"readonly\":false,\"disabled\":false,\"value\":\"500000/1000000/500000\"}],\"userValues\":\"25000/50000/25000\",\"valueDecoder\":\"autoBILimClmCov/autoBILimClm/autoPDLimClm\"}]}}]}},{\"displaySequence\":2,\"Id\":\"01t8Y00000O5yRsQAJ\",\"Name\":\"Auto Driver\",\"Family\":\"Personal Lines\",\"ProductCode\":\"autoDriver\",\"LineOfBusiness__c\":\"Property & Casualty\",\"MarketSegment__c\":\"Individual\",\"IsRecommended__c\":false,\"RecordTypeName__c\":\"InsuredPartySpec\",\"IsConfigurable__c\":true,\"Term__c\":\"Annual\",\"productId\":\"01t8Y00000O5yRsQAJ\",\"pciId\":\"a2z8Y000001JuQbQAK\",\"minQuantity\":1,\"maxQuantity\":1,\"parentInstanceKey\":\"2015  IS\",\"attributeCategories\":{\"totalSize\":1,\"records\":[{\"displaySequence\":220,\"Code__c\":\"autoDriver\",\"Name\":\"Auto Driver\",\"id\":\"a0B8Y00001XXPwlUAH\",\"productAttributes\":{\"totalSize\":21,\"records\":[{\"code\":\"adSuffix\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvfUAA\",\"label\":\"Suffix\",\"displaySequence\":0,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adFirstName\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvSUAQ\",\"label\":\"First Name\",\"displaySequence\":1,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adMiddle\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvbUAA\",\"label\":\"Middle Name\",\"displaySequence\":2,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adLastName\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvWUAQ\",\"label\":\"Last Name\",\"displaySequence\":3,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adBirthdate\",\"dataType\":\"date\",\"inputType\":\"date\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvRUAQ\",\"label\":\"Birthdate\",\"displaySequence\":4,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"1988-01-01T03:00:00.000Z\"},{\"code\":\"adAgeLicensed\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvQUAQ\",\"label\":\"Age First Licensed\",\"displaySequence\":5,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":16},{\"code\":\"adGender\",\"dataType\":\"text\",\"inputType\":\"dropdown\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvUUAQ\",\"label\":\"Gender\",\"displaySequence\":6,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"id\":\"2\",\"label\":\"Male\",\"readonly\":false,\"disabled\":false,\"value\":\"M\"},{\"id\":\"1\",\"label\":\"Female\",\"readonly\":false,\"disabled\":false,\"value\":\"F\"}],\"userValues\":\"M\"},{\"code\":\"adMaritalStatus\",\"dataType\":\"text\",\"inputType\":\"dropdown\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvaUAA\",\"label\":\"Marital Status\",\"displaySequence\":7,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"id\":\"1\",\"label\":\"Married\",\"readonly\":false,\"disabled\":false,\"value\":\"M\"},{\"id\":\"0\",\"label\":\"Single\",\"readonly\":false,\"disabled\":false,\"value\":\"S\"}],\"userValues\":\"M\"},{\"code\":\"adAccidentPoints\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvPUAQ\",\"label\":\"Driver Accident Points\",\"displaySequence\":8,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"1\"},{\"code\":\"adMVRPoints\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvZUAQ\",\"label\":\"Driver MVR Points\",\"displaySequence\":9,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"0\"},{\"code\":\"adMileage\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvcUAA\",\"label\":\"Driver Annual Mileage\",\"displaySequence\":10,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"\"},{\"code\":\"adGoodStudent\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvVUAQ\",\"label\":\"Good Student\",\"displaySequence\":11,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adGPA\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvTUAQ\",\"label\":\"GPA\",\"displaySequence\":12,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"\"},{\"code\":\"adLicenseNum\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvXUAQ\",\"label\":\"License Number\",\"displaySequence\":13,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adName\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvdUAA\",\"label\":\"Name\",\"displaySequence\":14,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adUse\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvhUAA\",\"label\":\"Primary Use\",\"displaySequence\":15,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adSafeDriver\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nveUAA\",\"label\":\"Safe Driver\",\"displaySequence\":16,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adLicenseState\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvYUAQ\",\"label\":\"State Licensed\",\"displaySequence\":17,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"adTotalPoints\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvgUAA\",\"label\":\"Total Points\",\"displaySequence\":18,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"\"},{\"code\":\"adYrsExp\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nviUAA\",\"label\":\"Years Experience\",\"displaySequence\":19,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"\"},{\"code\":\"adAge\",\"dataType\":\"number\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"filterable\":true,\"attributeId\":\"a0C8Y00000s0nvOUAQ\",\"label\":\"Age\",\"displaySequence\":20,\"hasRules\":false,\"hidden\":true,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":\"\"}]}}]}}]}}]}}]}",
+                "cacheable": false
+            },
+            "error": []
+        }
+    ],
+    "context": {
+        "mode": "PROD",
+        "app": "siteforce:communityApp",
+        "contextPath": "/BdtInsurance/s/sfsites",
+        "pathPrefix": "/BdtInsurance",
+        "fwuid": "2kszAdlijI-L2tQGa5JU9w",
+        "mlr": 1,
+        "loaded": {
+            "APPLICATION@markup://siteforce:communityApp": "jXOsG5Igwp3Xarg4lKoceQ",
+            "COMPONENT@markup://instrumentation:o11ySecondaryLoader": "NAR59T88qTprOlgZG3yLoQ",
+            "COMPONENT@markup://forceCommunity:dashboard": "XEqH18oP_BM31IjxXlbJag"
+        },
+        "globalValueProviders": [
+            {
+                "type": "$Global",
+                "values": {
+                    "eswConfigDeveloperName": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "isVoiceOver": {
+                        "writable": true,
+                        "defaultValue": false
+                    },
+                    "setupAppContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "density": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "srcdoc": {
+                        "writable": false,
+                        "defaultValue": false
+                    },
+                    "appContextId": {
+                        "writable": true,
+                        "defaultValue": ""
+                    },
+                    "dynamicTypeSize": {
+                        "writable": true,
+                        "defaultValue": ""
+                    }
+                }
+            }
+        ],
+        "enableAccessChecks": true,
+        "dns": "c",
+        "rns": [
+            "vlocity_ins"
+        ],
+        "ls": 1,
+        "lairn": [
+            "aloha_sales_opptysplit",
+            "app_flexipage",
+            "auraplat",
+            "contentpage",
+            "einsteinconduit",
+            "jsonxform",
+            "runtime_hcc_performanceassistant",
+            "runtime_industries_aisentimentresult",
+            "runtime_industries_documentreader",
+            "runtime_platform_sfdx",
+            "runtime_platformservices_eventmonitoring",
+            "runtime_revenue_billingbatchinvoices",
+            "runtime_revenue_billingbatchpayments",
+            "runtime_sales_billingpayments",
+            "runtime_sales_commerce",
+            "runtime_sales_corebiz",
+            "securitycentral",
+            "work"
+        ],
+        "laerc": [],
+        "lav": "57",
+        "ln": 1,
+        "mna": {
+            "lightning": "interop"
+        },
+        "lff": {
+            "ENABLE_MIXED_SHADOW_MODE": false,
+            "ENABLE_LIGHT_GET_ROOT_NODE_PATCH": true,
+            "DISABLE_LIGHT_DOM_UNSCOPED_CSS": false,
+            "ENABLE_SCOPED_CUSTOM_ELEMENT_REGISTRY": false
+        },
+        "arse": 1,
+        "acaf": 1,
+        "services": [
+            "markup://lightning:configProvider",
+            "markup://force:salesforceScopedModuleResolver",
+            "markup://force:ldsEngineCreator",
+            "markup://instrumentation:locatorService"
+        ]
+    },
+    "perfSummary": {
+        "version": "core",
+        "request": 978,
+        "actions": {
+            "190;a": {
+                "total": 921,
+                "db": 57
+            }
+        },
+        "actionsTotal": 921,
+        "overhead": 0
+    }
+}
+
+
+{\"totalSize": 1,
+    "records": [
+        {
+            "displaySequence": -1,
+            "Id": "01t8Y00000O5yTdQAJ",
+            "Name": "Multi Auto",
+            "Family": "Personal Lines",
+            "ProductCode": "autoMulti",
+            "LineOfBusiness__c": "Property & Casualty",
+            "IsRecommended__c": false,
+            "RecordTypeName__c": "Product",
+            "IsConfigurable__c": false,
+            "PricingFormula__c": "SUM(premiumBIPD + premiumCOLL + premiumCCD + premiumMED + premiumUM+premiumRental)",
+            "productId": "01t8Y00000O5yTdQAJ",
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "Price": "",
+            "taxesAndFees": [
+                {
+                    "calculatedAmount": 25.00,
+                    "currencySymbol": "$",
+                    "currencyCode": "USD",
+                    "Type__c": "Fee",
+                    "RatingType__c": "Amount",
+                    "ProcedureSource__c": null,
+                    "ProcedureName__c": null,
+                    "ProcedureFormula__c": null,
+                    "Percent__c": null,
+                    "JurisdictionId__c": null,
+                    "IsRefundable__c": false,
+                    "Condition__c": null,
+                    "Amount__c": 25.00,
+                    "Name": "573608e0-7b1c-9b66-a435-d584218c5305",
+                    "Id": "a3h8Y000000C2I7QAK"
+                },
+                {
+                    "calculatedAmount": 27.85,
+                    "currencySymbol": "$",
+                    "currencyCode": "USD",
+                    "Type__c": "Tax",
+                    "RatingType__c": "Amount",
+                    "ProcedureSource__c": null,
+                    "ProcedureName__c": null,
+                    "ProcedureFormula__c": null,
+                    "Percent__c": null,
+                    "JurisdictionId__c": null,
+                    "IsRefundable__c": true,
+                    "Condition__c": null,
+                    "Amount__c": 27.85,
+                    "Name": "7457f382-f935-3308-3429-24d9dfac88f4",
+                    "Id": "a3h8Y000000C2I8QAK"
+                },
+                {
+                    "calculatedAmount": 0,
+                    "currencySymbol": "$",
+                    "currencyCode": "USD",
+                    "Type__c": "Tax",
+                    "RatingType__c": "Calculation Procedure",
+                    "ProcedureSource__c": "tax",
+                    "ProcedureName__c": "CA Taxes",
+                    "ProcedureFormula__c": null,
+                    "Percent__c": null,
+                    "JurisdictionId__c": null,
+                    "IsRefundable__c": false,
+                    "Condition__c": null,
+                    "Amount__c": null,
+                    "Name": "7eee88c5-37d5-3991-02db-37ef3343982f",
+                    "Id": "a3h8Y000000C2I9QAK"
+                },
+                {
+                    "calculatedAmount": 0,
+                    "currencySymbol": "$",
+                    "currencyCode": "USD",
+                    "Type__c": "Tax",
+                    "RatingType__c": "Percent",
+                    "ProcedureSource__c": null,
+                    "ProcedureName__c": null,
+                    "ProcedureFormula__c": null,
+                    "Percent__c": 0.50,
+                    "JurisdictionId__c": null,
+                    "IsRefundable__c": true,
+                    "Condition__c": null,
+                    "Amount__c": null,
+                    "Name": "93b485fc-a7ce-a358-929d-e0381289b239",
+                    "Id": "a3h8Y000000C2IAQA0"
+                }
+            ],
+            "taxAmount": 27.85,
+            "feeAmount": 25.00,
+            "totalTaxFeeAmount": 52.85,
+            "childProducts": {
+                "totalSize": 1,
+                "records": [
+                    {
+                        "displaySequence": 1,
+                        "Id": "01t8Y00000O5yRtQAJ",
+                        "Name": "Vehicle",
+                        "Family": "Personal Lines",
+                        "ProductCode": "autoVehicle",
+                        "LineOfBusiness__c": "Property & Casualty",
+                        "IsRecommended__c": false,
+                        "RecordTypeName__c": "InsuredItemSpec",
+                        "IsConfigurable__c": true,
+                        "PricingFormula__c": "premiumBIPD + premiumCOLL + premiumCCD + premiumMED + premiumUM+premiumRental",
+                        "Term__c": "Annual",
+                        "productId": "01t8Y00000O5yRtQAJ",
+                        "pciId": "a2z8Y000001JuQZQA0",
+                        "minQuantity": 1,
+                        "maxQuantity": 1,
+                        "instanceKey": "2015  IS",
+                        "attributeCategories": {
+                            "totalSize": 1,
+                            "records": [
+                                {
+                                    "displaySequence": 210,
+                                    "Code__c": "autoVehicle",
+                                    "Name": "Auto Vehicle",
+                                    "id": "a0B8Y00001XXPwmUAH",
+                                    "productAttributes": {
+                                        "totalSize": 27,
+                                        "records": [
+                                            {
+                                                "code": "avYear",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwIUAQ",
+                                                "label": "Year",
+                                                "displaySequence": 0,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": "2015"
+                                            },
+                                            {
+                                                "code": "avMake",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw3UAA",
+                                                "label": "Make",
+                                                "displaySequence": 1,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avModel",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw5UAA",
+                                                "label": "Model",
+                                                "displaySequence": 2,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": "IS"
+                                            },
+                                            {
+                                                "code": "avColor",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvyUAA",
+                                                "label": "Color",
+                                                "displaySequence": 3,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avGaragePostalCode",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvzUAA",
+                                                "label": "Garage Location (Postal Code)",
+                                                "displaySequence": 4,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": "94040"
+                                            },
+                                            {
+                                                "code": "avMileage",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw4UAA",
+                                                "label": "Annual Mileage",
+                                                "displaySequence": 5,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": 15000
+                                            },
+                                            {
+                                                "code": "avVIN",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwGUAQ",
+                                                "label": "VIN",
+                                                "displaySequence": 6,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avValue",
+                                                "dataType": "currency",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwHUAQ",
+                                                "label": "Value",
+                                                "displaySequence": 7,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": 19997
+                                            },
+                                            {
+                                                "code": "avAltFuel",
+                                                "dataType": "text",
+                                                "inputType": "checkbox",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvsUAA",
+                                                "label": "Alternative Fuel",
+                                                "displaySequence": 8,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": false
+                                            },
+                                            {
+                                                "code": "avBrakes",
+                                                "dataType": "text",
+                                                "inputType": "checkbox",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvvUAA",
+                                                "label": "Anti-Lock Brakes",
+                                                "displaySequence": 9,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": true
+                                            },
+                                            {
+                                                "code": "avStabilization",
+                                                "dataType": "text",
+                                                "inputType": "checkbox",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwDUAQ",
+                                                "label": "Stabilization",
+                                                "displaySequence": 10,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": false
+                                            },
+                                            {
+                                                "code": "avAntiTheft",
+                                                "dataType": "text",
+                                                "inputType": "checkbox",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvtUAA",
+                                                "label": "Anti-Theft Device",
+                                                "displaySequence": 11,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": false
+                                            },
+                                            {
+                                                "code": "avClaimFreq",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvwUAA",
+                                                "label": "Claim Frequency",
+                                                "displaySequence": 12,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": ""
+                                            },
+                                            {
+                                                "code": "avClaimSev",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvxUAA",
+                                                "label": "Claim Severity",
+                                                "displaySequence": 13,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": ""
+                                            },
+                                            {
+                                                "code": "avLicNum",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw1UAA",
+                                                "label": "License Number",
+                                                "displaySequence": 14,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avLicState",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw2UAA",
+                                                "label": "License State",
+                                                "displaySequence": 15,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avRatedDriver-BIPD",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw6UAA",
+                                                "label": "Rated Driver - BIPD",
+                                                "displaySequence": 16,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": ""
+                                            },
+                                            {
+                                                "code": "avRatedDriver-COMP",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw8UAA",
+                                                "label": "Rated Driver - Comprehensive",
+                                                "displaySequence": 17,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": ""
+                                            },
+                                            {
+                                                "code": "avRatedDriver-MED",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw9UAA",
+                                                "label": "Rated Driver - Medical Payments",
+                                                "displaySequence": 18,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": ""
+                                            },
+                                            {
+                                                "code": "avRatedDriver-UM",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwAUAQ",
+                                                "label": "Rated Driver - Uninsured Motorist",
+                                                "displaySequence": 19,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": ""
+                                            },
+                                            {
+                                                "code": "avRatedDriverName",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwBUAQ",
+                                                "label": "Rated Driver Name",
+                                                "displaySequence": 20,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avRestraints",
+                                                "dataType": "text",
+                                                "inputType": "checkbox",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwCUAQ",
+                                                "label": "Restraints",
+                                                "displaySequence": 21,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": false
+                                            },
+                                            {
+                                                "code": "avHistoric",
+                                                "dataType": "text",
+                                                "inputType": "checkbox",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": false,
+                                                "disabled": false,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw0UAA",
+                                                "label": "Historic",
+                                                "displaySequence": 22,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": false,
+                                                        "disabled": false
+                                                    }
+                                                ],
+                                                "userValues": false
+                                            },
+                                            {
+                                                "code": "avStyle",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwEUAQ",
+                                                "label": "Style",
+                                                "displaySequence": 23,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avSymbol",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nwFUAQ",
+                                                "label": "Symbol",
+                                                "displaySequence": 24,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avBodyType",
+                                                "dataType": "text",
+                                                "inputType": "text",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nvuUAA",
+                                                "label": "Body Type",
+                                                "displaySequence": 25,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": null
+                                            },
+                                            {
+                                                "code": "avRatedDriver-COLL",
+                                                "dataType": "number",
+                                                "inputType": "number",
+                                                "multiselect": false,
+                                                "required": false,
+                                                "readonly": true,
+                                                "disabled": true,
+                                                "filterable": true,
+                                                "attributeId": "a0C8Y00000s0nw7UAA",
+                                                "label": "Rated Driver - Collision",
+                                                "displaySequence": 26,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "cloneable": true,
+                                                "isNotTranslatable": false,
+                                                "values": [
+                                                    {
+                                                        "readonly": true,
+                                                        "disabled": true
+                                                    }
+                                                ],
+                                                "userValues": ""
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "childProducts": {
+                            "totalSize": 7,
+                            "records": [
+                                {
+                                    "displaySequence": 4,
+                                    "Id": "01t8Y00000O5yS5QAJ",
+                                    "Name": "Uninsured Motorist",
+                                    "Family": "Personal Lines",
+                                    "ProductCode": "autoUM",
+                                    "LineOfBusiness__c": "Property & Casualty",
+                                    "IsRecommended__c": false,
+                                    "PricingSource__c": "premiumUM",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "IsConfigurable__c": true,
+                                    "Term__c": "Annual",
+                                    "productId": "01t8Y00000O5yS5QAJ",
+                                    "pciId": "a2z8Y000001JuQcQAK",
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2015  IS",
+                                    "attributeCategories": {
+                                        "totalSize": 1,
+                                        "records": [
+                                            {
+                                                "displaySequence": 230,
+                                                "Code__c": "autoTerms",
+                                                "Name": "Auto Terms",
+                                                "id": "a0B8Y00001XXPwdUAH",
+                                                "productAttributes": {
+                                                    "totalSize": 1,
+                                                    "records": [
+                                                        {
+                                                            "code": "autoUMLimit",
+                                                            "dataType": "text",
+                                                            "inputType": "dropdown",
+                                                            "multiselect": false,
+                                                            "required": false,
+                                                            "readonly": false,
+                                                            "disabled": false,
+                                                            "filterable": true,
+                                                            "attributeId": "a0C8Y00000s0o0FUAQ",
+                                                            "label": "UM Limit",
+                                                            "displaySequence": 0,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "cloneable": true,
+                                                            "isNotTranslatable": false,
+                                                            "values": [
+                                                                {
+                                                                    "id": "0",
+                                                                    "label": "$15,000 / $30,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "15/30"
+                                                                },
+                                                                {
+                                                                    "id": "1",
+                                                                    "label": "$25,000 / $50,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "25/50"
+                                                                },
+                                                                {
+                                                                    "id": "2",
+                                                                    "label": "$30,000 / $60,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "30/60"
+                                                                },
+                                                                {
+                                                                    "id": "3",
+                                                                    "label": "$50,000 / $100,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "50/100"
+                                                                },
+                                                                {
+                                                                    "id": "4",
+                                                                    "label": "$100,000 / $300,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "100/300"
+                                                                },
+                                                                {
+                                                                    "id": "5",
+                                                                    "label": "$250,000 / $500,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "250/500"
+                                                                },
+                                                                {
+                                                                    "id": "6",
+                                                                    "label": "$500,000 / $500,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "500/500"
+                                                                },
+                                                                {
+                                                                    "id": "7",
+                                                                    "label": "$500,000 / $1,000,000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "500/1000"
+                                                                }
+                                                            ],
+                                                            "userValues": "50/100"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "displaySequence": 5,
+                                    "Id": "01t8Y00000O5ySEQAZ",
+                                    "Name": "Rental Car",
+                                    "Family": "Personal Lines",
+                                    "ProductCode": "autoRental",
+                                    "LineOfBusiness__c": "Property & Casualty",
+                                    "IsRecommended__c": false,
+                                    "PricingSource__c": "premiumRental",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "IsConfigurable__c": false,
+                                    "Term__c": "Annual",
+                                    "productId": "01t8Y00000O5ySEQAZ",
+                                    "pciId": "a2z8Y000001JuQdQAK",
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "parentInstanceKey": "2015  IS",
+                                    "attributeCategories": {
+                                        "totalSize": 1,
+                                        "records": [
+                                            {
+                                                "displaySequence": 230,
+                                                "Code__c": "autoTerms",
+                                                "Name": "Auto Terms",
+                                                "id": "a0B8Y00001XXPwdUAH",
+                                                "productAttributes": {
+                                                    "totalSize": 2,
+                                                    "records": [
+                                                        {
+                                                            "code": "autoRentalLimClmCov",
+                                                            "dataType": "currency",
+                                                            "inputType": "number",
+                                                            "multiselect": false,
+                                                            "required": false,
+                                                            "readonly": true,
+                                                            "disabled": true,
+                                                            "filterable": true,
+                                                            "attributeId": "a0C8Y00000s0o0DUAQ",
+                                                            "label": "Rental Limit",
+                                                            "displaySequence": 0,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "cloneable": true,
+                                                            "isNotTranslatable": false,
+                                                            "values": [
+                                                                {
+                                                                    "readonly": true,
+                                                                    "disabled": true
+                                                                }
+                                                            ],
+                                                            "userValues": 2000
+                                                        },
+                                                        {
+                                                            "code": "autoRentalDays",
+                                                            "dataType": "number",
+                                                            "inputType": "number",
+                                                            "multiselect": false,
+                                                            "required": false,
+                                                            "readonly": true,
+                                                            "disabled": true,
+                                                            "filterable": true,
+                                                            "attributeId": "a0C8Y00000s0o0CUAQ",
+                                                            "label": "Number of Days",
+                                                            "displaySequence": 1,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "cloneable": true,
+                                                            "isNotTranslatable": false,
+                                                            "values": [
+                                                                {
+                                                                    "readonly": true,
+                                                                    "disabled": true
+                                                                }
+                                                            ],
+                                                            "userValues": 30
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "displaySequence": 3,
+                                    "Id": "01t8Y00000O5ySDQAZ",
+                                    "Name": "Medical Payments",
+                                    "Family": "Personal Lines",
+                                    "ProductCode": "autoMedical",
+                                    "LineOfBusiness__c": "Property & Casualty",
+                                    "IsRecommended__c": false,
+                                    "PricingSource__c": "premiumMED",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "IsConfigurable__c": true,
+                                    "Term__c": "Annual",
+                                    "productId": "01t8Y00000O5ySDQAZ",
+                                    "pciId": "a2z8Y000001JuQXQA0",
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2015  IS",
+                                    "attributeCategories": {
+                                        "totalSize": 1,
+                                        "records": [
+                                            {
+                                                "displaySequence": 230,
+                                                "Code__c": "autoTerms",
+                                                "Name": "Auto Terms",
+                                                "id": "a0B8Y00001XXPwdUAH",
+                                                "productAttributes": {
+                                                    "totalSize": 1,
+                                                    "records": [
+                                                        {
+                                                            "code": "autoMedPayLimClmCov",
+                                                            "dataType": "currency",
+                                                            "inputType": "dropdown",
+                                                            "multiselect": false,
+                                                            "required": false,
+                                                            "readonly": false,
+                                                            "disabled": false,
+                                                            "filterable": true,
+                                                            "attributeId": "a0C8Y00000s0o0AUAQ",
+                                                            "label": "Med Pay Person Limit",
+                                                            "displaySequence": 0,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "cloneable": true,
+                                                            "isNotTranslatable": false,
+                                                            "values": [
+                                                                {
+                                                                    "id": "0",
+                                                                    "label": "$1000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 1000
+                                                                },
+                                                                {
+                                                                    "id": "1",
+                                                                    "label": "$2000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 2000
+                                                                },
+                                                                {
+                                                                    "id": "2",
+                                                                    "label": "$5000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 5000
+                                                                }
+                                                            ],
+                                                            "userValues": 1000
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "displaySequence": 2,
+                                    "Id": "01t8Y00000O5ySAQAZ",
+                                    "Name": "Comprehensive",
+                                    "Family": "Personal Lines",
+                                    "ProductCode": "autoComp",
+                                    "LineOfBusiness__c": "Property & Casualty",
+                                    "IsRecommended__c": false,
+                                    "PricingSource__c": "premiumCCD",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "IsConfigurable__c": true,
+                                    "Term__c": "Annual",
+                                    "productId": "01t8Y00000O5ySAQAZ",
+                                    "pciId": "a2z8Y000001JuQWQA0",
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2015  IS",
+                                    "attributeCategories": {
+                                        "totalSize": 1,
+                                        "records": [
+                                            {
+                                                "displaySequence": 230,
+                                                "Code__c": "autoTerms",
+                                                "Name": "Auto Terms",
+                                                "id": "a0R3i000000dBNgEAM",
+                                                "productAttributes": {
+                                                    "totalSize": 1,
+                                                    "records": [
+                                                        {
+                                                            "code": "autoCompDedClmCov",
+                                                            "dataType": "currency",
+                                                            "inputType": "dropdown",
+                                                            "multiselect": false,
+                                                            "required": false,
+                                                            "readonly": false,
+                                                            "disabled": false,
+                                                            "filterable": true,
+                                                            "attributeId": "a0S3i000000cdTyEAI",
+                                                            "label": "Comp Deductible",
+                                                            "displaySequence": 0,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "cloneable": true,
+                                                            "isNotTranslatable": false,
+                                                            "values": [
+                                                                {
+                                                                    "id": "0",
+                                                                    "label": "$100",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 100
+                                                                },
+                                                                {
+                                                                    "id": "1",
+                                                                    "label": "$250",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 250
+                                                                },
+                                                                {
+                                                                    "id": "2",
+                                                                    "label": "$500",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 500
+                                                                },
+                                                                {
+                                                                    "id": "3",
+                                                                    "label": "$750",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 750
+                                                                },
+                                                                {
+                                                                    "id": "4",
+                                                                    "label": "$1000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 1000
+                                                                },
+                                                                {
+                                                                    "id": "5",
+                                                                    "label": "$1500",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 1500
+                                                                },
+                                                                {
+                                                                    "id": "6",
+                                                                    "label": "$2500",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 2500
+                                                                }
+                                                            ],
+                                                            "userValues": 100
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "displaySequence": 1,
+                                    "Id": "01t8Y00000O5ySCQAZ",
+                                    "Name": "Collision",
+                                    "Family": "Personal Lines",
+                                    "ProductCode": "autoCollision",
+                                    "LineOfBusiness__c": "Property & Casualty",
+                                    "IsRecommended__c": false,
+                                    "PricingSource__c": "premiumCOLL",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "IsConfigurable__c": true,
+                                    "Term__c": "Annual",
+                                    "productId": "01t8Y00000O5ySCQAZ",
+                                    "pciId": "a2z8Y000001JuQYQA0",
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2015  IS",
+                                    "attributeCategories": {
+                                        "totalSize": 1,
+                                        "records": [
+                                            {
+                                                "displaySequence": 230,
+                                                "Code__c": "autoTerms",
+                                                "Name": "Auto Terms",
+                                                "id": "a0B8Y00001XXPwdUAH",
+                                                "productAttributes": {
+                                                    "totalSize": 1,
+                                                    "records": [
+                                                        {
+                                                            "code": "autoCollDedClmCov",
+                                                            "dataType": "currency",
+                                                            "inputType": "dropdown",
+                                                            "multiselect": false,
+                                                            "required": false,
+                                                            "readonly": false,
+                                                            "disabled": false,
+                                                            "filterable": true,
+                                                            "attributeId": "a0C8Y00000s0o06UAA",
+                                                            "label": "Collision Deductible",
+                                                            "displaySequence": 0,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "cloneable": true,
+                                                            "isNotTranslatable": false,
+                                                            "values": [
+                                                                {
+                                                                    "id": "0",
+                                                                    "label": "$250",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 250
+                                                                },
+                                                                {
+                                                                    "id": "1",
+                                                                    "label": "$500",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 500
+                                                                },
+                                                                {
+                                                                    "id": "2",
+                                                                    "label": "$750",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 750
+                                                                },
+                                                                {
+                                                                    "id": "3",
+                                                                    "label": "$1000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 1000
+                                                                },
+                                                                {
+                                                                    "id": "4",
+                                                                    "label": "$1500",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 1500
+                                                                },
+                                                                {
+                                                                    "id": "5",
+                                                                    "label": "$2500",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": 2500
+                                                                }
+                                                            ],
+                                                            "userValues": 500
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "displaySequence": 0,
+                                    "Id": "01t8Y00000O5yS8QAJ",
+                                    "Name": "Bodily Injury & Property Damage",
+                                    "Family": "Personal Lines",
+                                    "ProductCode": "autoBIPD",
+                                    "LineOfBusiness__c": "Property & Casualty",
+                                    "IsRecommended__c": false,
+                                    "PricingSource__c": "premiumBIPD",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "IsConfigurable__c": true,
+                                    "Term__c": "Annual",
+                                    "productId": "01t8Y00000O5yS8QAJ",
+                                    "pciId": "a2z8Y000001JuQaQAK",
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2015  IS",
+                                    "attributeCategories": {
+                                        "totalSize": 1,
+                                        "records": [
+                                            {
+                                                "displaySequence": 230,
+                                                "Code__c": "autoTerms",
+                                                "Name": "Auto Terms",
+                                                "id": "a0B6A0000062WreUAE",
+                                                "productAttributes": {
+                                                    "totalSize": 1,
+                                                    "records": [
+                                                        {
+                                                            "code": "autoBIPDLimit",
+                                                            "dataType": "text",
+                                                            "inputType": "dropdown",
+                                                            "multiselect": false,
+                                                            "required": false,
+                                                            "readonly": false,
+                                                            "disabled": false,
+                                                            "filterable": true,
+                                                            "attributeId": "a0C3s00000CAkV0EAL",
+                                                            "label": "BIPD Limit",
+                                                            "displaySequence": 0,
+                                                            "hasRules": true,
+                                                            "hidden": false,
+                                                            "cloneable": true,
+                                                            "isNotTranslatable": false,
+                                                            "values": [
+                                                                {
+                                                                    "id": "0",
+                                                                    "label": "$15000/$30000/$10000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "15000/30000/10000"
+                                                                },
+                                                                {
+                                                                    "id": "1",
+                                                                    "label": "$15000/$30000/$5000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "15000/30000/5000"
+                                                                },
+                                                                {
+                                                                    "id": "2",
+                                                                    "label": "$25000/$50000/$25000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "25000/50000/25000"
+                                                                },
+                                                                {
+                                                                    "id": "3",
+                                                                    "label": "$25000/$50000/$50000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "25000/50000/50000"
+                                                                },
+                                                                {
+                                                                    "id": "4",
+                                                                    "label": "$50000/$100000/$50000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "50000/100000/50000"
+                                                                },
+                                                                {
+                                                                    "id": "5",
+                                                                    "label": "$50000/$100000/$100000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "50000/100000/100000"
+                                                                },
+                                                                {
+                                                                    "id": "6",
+                                                                    "label": "$100000/$300000/$25000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "100000/300000/25000"
+                                                                },
+                                                                {
+                                                                    "id": "7",
+                                                                    "label": "$100000/$300000/$50000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "100000/300000/50000"
+                                                                },
+                                                                {
+                                                                    "id": "8",
+                                                                    "label": "$100000/$300000/$100000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "100000/300000/100000"
+                                                                },
+                                                                {
+                                                                    "id": "9",
+                                                                    "label": "$250000/$500000/$100000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "250000/500000/100000"
+                                                                },
+                                                                {
+                                                                    "id": "10",
+                                                                    "label": "$500000/$500000/100000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "500000/500000/100000"
+                                                                },
+                                                                {
+                                                                    "id": "11",
+                                                                    "label": "$500000/$500000/$500000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "500000/500000/500000"
+                                                                },
+                                                                {
+                                                                    "id": "12",
+                                                                    "label": "$500000/$1000000/$500000",
+                                                                    "readonly": false,
+                                                                    "disabled": false,
+                                                                    "value": "500000/1000000/500000"
+                                                                }
+                                                            ],
+                                                            "userValues": "25000/50000/25000",
+                                                            "valueDecoder": "autoBILimClmCov/autoBILimClm/autoPDLimClm"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "displaySequence": 2,
+                                    "Id": "01t8Y00000O5yRsQAJ",
+                                    "Name": "Auto Driver",
+                                    "Family": "Personal Lines",
+                                    "ProductCode": "autoDriver",
+                                    "LineOfBusiness__c": "Property & Casualty\",\"MarketSegment__c\":\"Individual\",\"IsRecommended__c\":false,"RecordTypeName__c":"InsuredPartySpec","IsConfigurable__c":true,"Term__c":"Annual","productId":"01t8Y00000O5yRsQAJ","pciId":"a2z8Y000001JuQbQAK","minQuantity":1,"maxQuantity":1,"parentInstanceKey":"2015  IS","attributeCategories":{"totalSize":1,"records":[{"displaySequence":220,"Code__c":"autoDriver","Name":"Auto Driver","id":"a0B8Y00001XXPwlUAH","productAttributes":{"totalSize":21,"records":[{"code":"adSuffix","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvfUAA","label":"Suffix","displaySequence":0,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adFirstName","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvSUAQ","label":"First Name","displaySequence":1,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adMiddle","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvbUAA","label":"Middle Name","displaySequence":2,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adLastName","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvWUAQ","label":"Last Name","displaySequence":3,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adBirthdate","dataType":"date","inputType":"date","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvRUAQ","label":"Birthdate","displaySequence":4,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":"1988-01-01T03: 00: 00.000Z"},{"code":"adAgeLicensed","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvQUAQ","label":"Age First Licensed","displaySequence":5,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":16},{"code":"adGender","dataType":"text","inputType":"dropdown","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvUUAQ","label":"Gender","displaySequence":6,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"id":"2","label":"Male","readonly":false,"disabled":false,"value":"M"},{"id":"1","label":"Female","readonly":false,"disabled":false,"value":"F"}],"userValues":"M"},{"code":"adMaritalStatus","dataType":"text","inputType":"dropdown","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvaUAA","label":"Marital Status","displaySequence":7,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"id":"1","label":"Married","readonly":false,"disabled":false,"value":"M"},{"id":"0","label":"Single","readonly":false,"disabled":false,"value":"S"}],"userValues":"M"},{"code":"adAccidentPoints","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvPUAQ","label":"Driver Accident Points","displaySequence":8,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":"1"},{"code":"adMVRPoints","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvZUAQ","label":"Driver MVR Points","displaySequence":9,"hasRules":false,"hidden":false,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":"0"},{"code":"adMileage","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvcUAA","label":"Driver Annual Mileage","displaySequence":10,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":""},{"code":"adGoodStudent","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvVUAQ","label":"Good Student","displaySequence":11,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adGPA","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvTUAQ","label":"GPA","displaySequence":12,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":""},{"code":"adLicenseNum","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvXUAQ","label":"License Number","displaySequence":13,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adName","dataType\":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvdUAA","label":"Name","displaySequence":14,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adUse","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvhUAA","label":"Primary Use","displaySequence":15,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adSafeDriver","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nveUAA","label":"Safe Driver","displaySequence":16,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adLicenseState","dataType":"text","inputType":"text","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvYUAQ","label":"State Licensed","displaySequence":17,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":null},{"code":"adTotalPoints","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvgUAA","label":"Total Points","displaySequence":18,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":""},{"code":"adYrsExp","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nviUAA","label":"Years Experience","displaySequence":19,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":""},{"code":"adAge","dataType":"number","inputType":"number","multiselect":false,"required":false,"readonly":false,"disabled":false,"filterable":true,"attributeId":"a0C8Y00000s0nvOUAQ","label":"Age","displaySequence":20,"hasRules":false,"hidden":true,"cloneable":true,"isNotTranslatable":false,"values":[{"readonly":false,"disabled":false}],"userValues":""}]}}]}}]}}]}}]}
